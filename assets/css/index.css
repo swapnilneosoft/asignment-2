@@ -1,0 +1,145 @@
+body{
+    background-color:  #ffeee6;
+}
+
+.cart-number{
+   padding-left: 7px;
+   padding-right: 7px;
+   border-radius: 150px;
+   position: absolute;
+   top: 23px;
+   right: 70px;
+   font-size: 10px;
+
+}
+
+.nav-link   {
+    color:black;
+}
+
+.active{
+    color: rgb(94, 94, 255)
+}
+.outline-primary{
+    border: 1px solid rgb(94, 94, 255);
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 100px;
+}
+.outline-warning{
+    border: 1px solid rgb(255, 202, 57);
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 100px;
+}
+.outline-danger{
+    border: 1px solid rgb(255, 42, 42);
+    padding-left: 7px;
+    padding-right: 7px;
+    border-radius: 100px;
+}
+
+.carousel-inner{
+    height: 500px;
+}
+.carousel-caption-main{
+    color: black;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+}
+
+.brand-primary-batch{
+    width: 40px;
+    height: 40px;
+    font-size: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 40px;
+    position: relative;
+    top: 20px;
+    margin: 0;
+}
+.card-170{
+    height: 270px;
+}
+
+.bg-image{
+    background: url('../../assets/img/ecom/man.png');
+    background-size: cover;
+    height: 500px;
+}
+.round-dots{
+    padding: 1px;
+    height: 0px;
+    width: 5px;
+    border: 1px solid white;
+    border-radius: 100px;
+    display: inline;
+    margin: 0px;
+}
+.filled-star{
+    color: rgb(255, 220, 22);
+}
+.width-50{
+    width: 70px;
+
+}
+
+.bg-image-footer{
+    background: url('../../assets/img/bg1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 600px;
+    padding: 20px;
+}
+.layer{
+    background-color: rgba(46, 46, 46, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.layer-2{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 263px;
+}
+.bg-fb{
+    background-color: rgb(0, 0, 173);
+    color: white;
+}
+.bg-light-blue{
+    background-color: rgb(50, 180, 255);
+    color: white;
+}
+.bg-insta{
+    background-color: rgb(221, 0, 184);
+    color: white;
+}
+.bg-drible{
+    background-color: rgb(206, 0, 120);
+    color: white;
+}
+.bg-pinterest{
+    background-color: rgb(211, 0, 70);
+    color: white;
+}
+
+@media (max-width:768px) {
+    .carousel-inner{
+        height:100%;
+    }
+    .carousel-caption-main{
+        position: absolute;
+        top: 70px;
+        left: 100px;
+    }
+}

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECOM Home</title>
+    <script src="https://kit.fontawesome.com/ac7bf073c0.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/index.css">
+</head>
+
+<nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+        <a class="navbar-brand fw-bold" href="#">
+            <span class="outline-primary  text-black m-0 ">B</span>
+            <span class="outline-warning  text-black m-0 ">P</span>
+            <span class="outline-danger  text-black m-0 ">K</span>
+            <span class="text-uppercase text-black">Shop</span>
+        </a>
+        <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
+        <ul class="nav justify-content-center collapse navbar-collapse text-uppercase" id="navbarSupportedContent">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Picinc</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Page</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Promotion</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+
+        </ul>
+        <ul class="nav justify-content-end">
+            <li class="nav-item m-3 fs-5">
+                <i class="fas fa-search"></i>
+            </li>
+            <li class="nav-item m-3 fs-5">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-number bg-primary text-white">2</span>
+            </li>
+            <li class="nav-item m-3 fs-5">
+                <i class="fas fa-align-justify" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation"></i>
+            </li>
+        </ul>
+        <!-- </div> -->
+    </div>
+</nav>
+<main class="container">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/img/bg1.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption-main">
+            <h1 class="fw-b"> The world of extreme Sports</h1>
+            <p class="text-uppercase fw-b">Save <span class="text-primary fw-b">20%</span> on all apparel </p>
+            <hr width="40%" size="5">
+            <p class="mt-2">
+              <button class="btn btn-dark btn-larg">SHOP NOW >></button>
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/bg2.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption-main">
+            <h1 class="fw-b"> The world of extreme Sports</h1>
+            <p class="text-uppercase fw-b">Save <span class="text-primary fw-b">20%</span> on all apparel</p>
+            <hr width="40%" size="5">
+            <p class="mt-2">
+              <button class="btn btn-dark btn-larg">SHOP NOW >></button>
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/img/bg1.png" class="d-block w-100" alt="...">
+          <div class="carousel-caption-main">
+            <h1 class="fw-b fs-1  justify-content-start"> The world of extreme Sports</h1>
+            <p class="text-uppercase fw-b">Save <span class="text-primary fw-b">20%</span> on all apparel </p>
+            <hr width="40%" size="5">
+            <p class="mt-2">
+              <button class="btn btn-dark btn-larg">SHOP NOW >></button>
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bg-primary" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon bg-primary" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="container mt-4 border bg-dark text-white  p-3">
+        <form action="">
+            <div class="form-group">
+                <label for="name">name</label>
+                <input type="text" id="name" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="email">email</label>
+                <input type="email" id="email" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="mobi">mobile no.</label>
+                <input type="text" id="mob" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="sub">subject</label>
+                <input type="text" id="sub" class="form-control">
+            </div>
+            <div class="form-group mt-3">
+                
+                <textarea style="resize: none;" rows="5" cols="" class="form-control"></textarea>
+            </div>
+            <div class="form-group text-center mt-3">
+                <button class="btn btn-success btn-lg form-control " style="width: 50%;">Submit</button>
+            </div>
+        </form>
+    </div>
+</main>
+
+<footer class="text-center p-4">
+    Copyright &copy;2021 Designed by <a href="#" class="active">Neosoft Technologies</a> - All rights Reserved.
+  </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
